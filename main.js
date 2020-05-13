@@ -190,16 +190,16 @@ function update() {
   if (p1Score >= 10) {
     if (needsAlert) {
       alert("Player 1 Wins!");
+      location.reload();
       needsAlert = false;
     }
-    location.reload();
   }
   if (p2Score >= 10) {
     if (needsAlert) {
       alert("Player 2 Wins!");
+      location.reload();
       needsAlert = false;
     }
-    location.reload();
   }
 }
 
